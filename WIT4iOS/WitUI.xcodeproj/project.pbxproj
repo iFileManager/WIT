@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52583AE6178B8394008A4C91 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 52583AE5178B8393008A4C91 /* GCDAsyncSocket.m */; };
+		52583AE7178B8491008A4C91 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 52583AE5178B8393008A4C91 /* GCDAsyncSocket.m */; };
+		5267157E178ADBF400760441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5267157D178ADBF400760441 /* UIKit.framework */; };
+		52671580178ADBF400760441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5267157F178ADBF400760441 /* Foundation.framework */; };
+		52671582178ADBF400760441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52671581178ADBF400760441 /* CoreGraphics.framework */; };
+		52671588178ADBF400760441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52671586178ADBF400760441 /* InfoPlist.strings */; };
+		5267158A178ADBF400760441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52671589178ADBF400760441 /* main.m */; };
+		5267158E178ADBF400760441 /* WITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5267158D178ADBF400760441 /* WITAppDelegate.m */; };
+		52671591178ADBF400760441 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5267158F178ADBF400760441 /* MainStoryboard.storyboard */; };
+		52671594178ADBF400760441 /* WITMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52671593178ADBF400760441 /* WITMasterViewController.m */; };
+		52671597178ADBF400760441 /* WITDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52671596178ADBF400760441 /* WITDetailViewController.m */; };
+		5267159F178ADBF400760441 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5267159E178ADBF400760441 /* SenTestingKit.framework */; };
+		526715A0178ADBF400760441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5267157D178ADBF400760441 /* UIKit.framework */; };
+		526715A1178ADBF400760441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5267157F178ADBF400760441 /* Foundation.framework */; };
+		526715A9178ADBF400760441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 526715A7178ADBF400760441 /* InfoPlist.strings */; };
+		526715AC178ADBF400760441 /* WitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 526715AB178ADBF400760441 /* WitUITests.m */; };
+		52C3FD41178B2E14004B1A5B /* WITFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3FD40178B2E14004B1A5B /* WITFileCell.m */; };
+		52C3FD44178B2E53004B1A5B /* WITFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C3FD43178B2E53004B1A5B /* WITFileCell.xib */; };
+		52C3FD52178B4CFB004B1A5B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C3FD51178B4CFB004B1A5B /* AssetsLibrary.framework */; };
+		52C9DF71178BE31D000670BD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C9DF70178BE31D000670BD /* icon.png */; };
+		52E3A026178AF07B00F0BDD0 /* WITSyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A014178AF07B00F0BDD0 /* WITSyncUdpSocket.m */; };
+		52E3A027178AF07B00F0BDD0 /* WITConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A016178AF07B00F0BDD0 /* WITConstants.m */; };
+		52E3A028178AF07B00F0BDD0 /* WITFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A018178AF07B00F0BDD0 /* WITFile.m */; };
+		52E3A029178AF07B00F0BDD0 /* WITInFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A01A178AF07B00F0BDD0 /* WITInFile.m */; };
+		52E3A02A178AF07B00F0BDD0 /* WITNetworkEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A01C178AF07B00F0BDD0 /* WITNetworkEnv.m */; };
+		52E3A02B178AF07B00F0BDD0 /* WITOutFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A01E178AF07B00F0BDD0 /* WITOutFile.m */; };
+		52E3A02C178AF07B00F0BDD0 /* WITService.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A020178AF07B00F0BDD0 /* WITService.m */; };
+		52E3A02D178AF07B00F0BDD0 /* WITUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A022178AF07B00F0BDD0 /* WITUser.m */; };
+		52E3A02E178AF07B00F0BDD0 /* WITUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A024178AF07B00F0BDD0 /* WITUtils.m */; };
+		52E3A030178AF08F00F0BDD0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E3A02F178AF08F00F0BDD0 /* Security.framework */; };
+		52E3A032178AF09400F0BDD0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E3A031178AF09400F0BDD0 /* CFNetwork.framework */; };
+		52E3A034178AF09A00F0BDD0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E3A033178AF09A00F0BDD0 /* SystemConfiguration.framework */; };
+		52EC35A8178B5FE8007A953F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EC35A6178B5FE8007A953F /* AddressBook.framework */; };
+		52EC35A9178B5FE8007A953F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EC35A7178B5FE8007A953F /* AddressBookUI.framework */; };
+		CEE3BAB2178B98F900438ACD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEE3BAB1178B98F900438ACD /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526715A2178ADBF400760441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52671570178ADBF400760441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52671578178ADBF400760441;
+			remoteInfo = WitUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52583AE4178B8393008A4C91 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		52583AE5178B8393008A4C91 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		52671579178ADBF400760441 /* WitUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WitUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5267157D178ADBF400760441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5267157F178ADBF400760441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52671581178ADBF400760441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52671585178ADBF400760441 /* WitUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WitUI-Info.plist"; sourceTree = "<group>"; };
+		52671587178ADBF400760441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52671589178ADBF400760441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5267158B178ADBF400760441 /* WitUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WitUI-Prefix.pch"; sourceTree = "<group>"; };
+		5267158C178ADBF400760441 /* WITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WITAppDelegate.h; sourceTree = "<group>"; };
+		5267158D178ADBF400760441 /* WITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WITAppDelegate.m; sourceTree = "<group>"; };
+		52671590178ADBF400760441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		52671592178ADBF400760441 /* WITMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WITMasterViewController.h; sourceTree = "<group>"; };
+		52671593178ADBF400760441 /* WITMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WITMasterViewController.m; sourceTree = "<group>"; };
+		52671595178ADBF400760441 /* WITDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WITDetailViewController.h; sourceTree = "<group>"; };
+		52671596178ADBF400760441 /* WITDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WITDetailViewController.m; sourceTree = "<group>"; };
+		5267159D178ADBF400760441 /* WitUITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WitUITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5267159E178ADBF400760441 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		526715A6178ADBF400760441 /* WitUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WitUITests-Info.plist"; sourceTree = "<group>"; };
+		526715A8178ADBF400760441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		526715AA178ADBF400760441 /* WitUITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitUITests.h; sourceTree = "<group>"; };
+		526715AB178ADBF400760441 /* WitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitUITests.m; sourceTree = "<group>"; };
+		52C3FD3F178B2E14004B1A5B /* WITFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITFileCell.h; sourceTree = "<group>"; };
+		52C3FD40178B2E14004B1A5B /* WITFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITFileCell.m; sourceTree = "<group>"; };
+		52C3FD43178B2E53004B1A5B /* WITFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WITFileCell.xib; sourceTree = "<group>"; };
+		52C3FD51178B4CFB004B1A5B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		52C9DF70178BE31D000670BD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		52E3A013178AF07B00F0BDD0 /* WITSyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITSyncUdpSocket.h; sourceTree = "<group>"; };
+		52E3A014178AF07B00F0BDD0 /* WITSyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITSyncUdpSocket.m; sourceTree = "<group>"; };
+		52E3A015178AF07B00F0BDD0 /* WITConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITConstants.h; sourceTree = "<group>"; };
+		52E3A016178AF07B00F0BDD0 /* WITConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITConstants.m; sourceTree = "<group>"; };
+		52E3A017178AF07B00F0BDD0 /* WITFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITFile.h; sourceTree = "<group>"; };
+		52E3A018178AF07B00F0BDD0 /* WITFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITFile.m; sourceTree = "<group>"; };
+		52E3A019178AF07B00F0BDD0 /* WITInFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITInFile.h; sourceTree = "<group>"; };
+		52E3A01A178AF07B00F0BDD0 /* WITInFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITInFile.m; sourceTree = "<group>"; };
+		52E3A01B178AF07B00F0BDD0 /* WITNetworkEnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITNetworkEnv.h; sourceTree = "<group>"; };
+		52E3A01C178AF07B00F0BDD0 /* WITNetworkEnv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITNetworkEnv.m; sourceTree = "<group>"; };
+		52E3A01D178AF07B00F0BDD0 /* WITOutFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITOutFile.h; sourceTree = "<group>"; };
+		52E3A01E178AF07B00F0BDD0 /* WITOutFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITOutFile.m; sourceTree = "<group>"; };
+		52E3A01F178AF07B00F0BDD0 /* WITService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITService.h; sourceTree = "<group>"; };
+		52E3A020178AF07B00F0BDD0 /* WITService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITService.m; sourceTree = "<group>"; };
+		52E3A021178AF07B00F0BDD0 /* WITUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITUser.h; sourceTree = "<group>"; };
+		52E3A022178AF07B00F0BDD0 /* WITUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITUser.m; sourceTree = "<group>"; };
+		52E3A023178AF07B00F0BDD0 /* WITUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITUtils.h; sourceTree = "<group>"; };
+		52E3A024178AF07B00F0BDD0 /* WITUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITUtils.m; sourceTree = "<group>"; };
+		52E3A02F178AF08F00F0BDD0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		52E3A031178AF09400F0BDD0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		52E3A033178AF09A00F0BDD0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		52EC35A6178B5FE8007A953F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		52EC35A7178B5FE8007A953F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		CEE3BAB1178B98F900438ACD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52671576178ADBF400760441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EC35A8178B5FE8007A953F /* AddressBook.framework in Frameworks */,
+				52EC35A9178B5FE8007A953F /* AddressBookUI.framework in Frameworks */,
+				52C3FD52178B4CFB004B1A5B /* AssetsLibrary.framework in Frameworks */,
+				52E3A034178AF09A00F0BDD0 /* SystemConfiguration.framework in Frameworks */,
+				52E3A032178AF09400F0BDD0 /* CFNetwork.framework in Frameworks */,
+				52E3A030178AF08F00F0BDD0 /* Security.framework in Frameworks */,
+				5267157E178ADBF400760441 /* UIKit.framework in Frameworks */,
+				52671580178ADBF400760441 /* Foundation.framework in Frameworks */,
+				52671582178ADBF400760441 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52671599178ADBF400760441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5267159F178ADBF400760441 /* SenTestingKit.framework in Frameworks */,
+				526715A0178ADBF400760441 /* UIKit.framework in Frameworks */,
+				526715A1178ADBF400760441 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5267156E178ADBF400760441 = {
+			isa = PBXGroup;
+			children = (
+				52671583178ADBF400760441 /* WitUI */,
+				526715A4178ADBF400760441 /* WitUITests */,
+				5267157C178ADBF400760441 /* Frameworks */,
+				5267157A178ADBF400760441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5267157A178ADBF400760441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52671579178ADBF400760441 /* WitUI.app */,
+				5267159D178ADBF400760441 /* WitUITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5267157C178ADBF400760441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EC35A6178B5FE8007A953F /* AddressBook.framework */,
+				52EC35A7178B5FE8007A953F /* AddressBookUI.framework */,
+				52C3FD51178B4CFB004B1A5B /* AssetsLibrary.framework */,
+				52E3A033178AF09A00F0BDD0 /* SystemConfiguration.framework */,
+				52E3A031178AF09400F0BDD0 /* CFNetwork.framework */,
+				52E3A02F178AF08F00F0BDD0 /* Security.framework */,
+				5267157D178ADBF400760441 /* UIKit.framework */,
+				5267157F178ADBF400760441 /* Foundation.framework */,
+				52671581178ADBF400760441 /* CoreGraphics.framework */,
+				5267159E178ADBF400760441 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52671583178ADBF400760441 /* WitUI */ = {
+			isa = PBXGroup;
+			children = (
+				52583AE4178B8393008A4C91 /* GCDAsyncSocket.h */,
+				52583AE5178B8393008A4C91 /* GCDAsyncSocket.m */,
+				5267158F178ADBF400760441 /* MainStoryboard.storyboard */,
+				5267158C178ADBF400760441 /* WITAppDelegate.h */,
+				5267158D178ADBF400760441 /* WITAppDelegate.m */,
+				52E3A015178AF07B00F0BDD0 /* WITConstants.h */,
+				52E3A016178AF07B00F0BDD0 /* WITConstants.m */,
+				52671595178ADBF400760441 /* WITDetailViewController.h */,
+				52671596178ADBF400760441 /* WITDetailViewController.m */,
+				52E3A017178AF07B00F0BDD0 /* WITFile.h */,
+				52E3A018178AF07B00F0BDD0 /* WITFile.m */,
+				52C3FD3F178B2E14004B1A5B /* WITFileCell.h */,
+				52C3FD40178B2E14004B1A5B /* WITFileCell.m */,
+				52C3FD43178B2E53004B1A5B /* WITFileCell.xib */,
+				52E3A019178AF07B00F0BDD0 /* WITInFile.h */,
+				52E3A01A178AF07B00F0BDD0 /* WITInFile.m */,
+				52671592178ADBF400760441 /* WITMasterViewController.h */,
+				52671593178ADBF400760441 /* WITMasterViewController.m */,
+				52E3A01B178AF07B00F0BDD0 /* WITNetworkEnv.h */,
+				52E3A01C178AF07B00F0BDD0 /* WITNetworkEnv.m */,
+				52E3A01D178AF07B00F0BDD0 /* WITOutFile.h */,
+				52E3A01E178AF07B00F0BDD0 /* WITOutFile.m */,
+				52E3A01F178AF07B00F0BDD0 /* WITService.h */,
+				52E3A020178AF07B00F0BDD0 /* WITService.m */,
+				52E3A013178AF07B00F0BDD0 /* WITSyncUdpSocket.h */,
+				52E3A014178AF07B00F0BDD0 /* WITSyncUdpSocket.m */,
+				52E3A021178AF07B00F0BDD0 /* WITUser.h */,
+				52E3A022178AF07B00F0BDD0 /* WITUser.m */,
+				52E3A023178AF07B00F0BDD0 /* WITUtils.h */,
+				52E3A024178AF07B00F0BDD0 /* WITUtils.m */,
+				52671584178ADBF400760441 /* Supporting Files */,
+			);
+			path = WitUI;
+			sourceTree = "<group>";
+		};
+		52671584178ADBF400760441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3BAB1178B98F900438ACD /* Default-568h@2x.png */,
+				52C9DF70178BE31D000670BD /* icon.png */,
+				52671585178ADBF400760441 /* WitUI-Info.plist */,
+				52671586178ADBF400760441 /* InfoPlist.strings */,
+				52671589178ADBF400760441 /* main.m */,
+				5267158B178ADBF400760441 /* WitUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		526715A4178ADBF400760441 /* WitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				526715AA178ADBF400760441 /* WitUITests.h */,
+				526715AB178ADBF400760441 /* WitUITests.m */,
+				526715A5178ADBF400760441 /* Supporting Files */,
+			);
+			path = WitUITests;
+			sourceTree = "<group>";
+		};
+		526715A5178ADBF400760441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				526715A6178ADBF400760441 /* WitUITests-Info.plist */,
+				526715A7178ADBF400760441 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52671578178ADBF400760441 /* WitUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526715AF178ADBF400760441 /* Build configuration list for PBXNativeTarget "WitUI" */;
+			buildPhases = (
+				52671575178ADBF400760441 /* Sources */,
+				52671576178ADBF400760441 /* Frameworks */,
+				52671577178ADBF400760441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WitUI;
+			productName = WitUI;
+			productReference = 52671579178ADBF400760441 /* WitUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5267159C178ADBF400760441 /* WitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526715B2178ADBF400760441 /* Build configuration list for PBXNativeTarget "WitUITests" */;
+			buildPhases = (
+				52671598178ADBF400760441 /* Sources */,
+				52671599178ADBF400760441 /* Frameworks */,
+				5267159A178ADBF400760441 /* Resources */,
+				5267159B178ADBF400760441 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526715A3178ADBF400760441 /* PBXTargetDependency */,
+			);
+			name = WitUITests;
+			productName = WitUITests;
+			productReference = 5267159D178ADBF400760441 /* WitUITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52671570178ADBF400760441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WIT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 52671573178ADBF400760441 /* Build configuration list for PBXProject "WitUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5267156E178ADBF400760441;
+			productRefGroup = 5267157A178ADBF400760441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52671578178ADBF400760441 /* WitUI */,
+				5267159C178ADBF400760441 /* WitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52671577178ADBF400760441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52671588178ADBF400760441 /* InfoPlist.strings in Resources */,
+				52671591178ADBF400760441 /* MainStoryboard.storyboard in Resources */,
+				52C3FD44178B2E53004B1A5B /* WITFileCell.xib in Resources */,
+				52C9DF71178BE31D000670BD /* icon.png in Resources */,
+				CEE3BAB2178B98F900438ACD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5267159A178ADBF400760441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526715A9178ADBF400760441 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5267159B178ADBF400760441 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52671575178ADBF400760441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52583AE7178B8491008A4C91 /* GCDAsyncSocket.m in Sources */,
+				5267158A178ADBF400760441 /* main.m in Sources */,
+				5267158E178ADBF400760441 /* WITAppDelegate.m in Sources */,
+				52671594178ADBF400760441 /* WITMasterViewController.m in Sources */,
+				52671597178ADBF400760441 /* WITDetailViewController.m in Sources */,
+				52E3A026178AF07B00F0BDD0 /* WITSyncUdpSocket.m in Sources */,
+				52E3A027178AF07B00F0BDD0 /* WITConstants.m in Sources */,
+				52E3A028178AF07B00F0BDD0 /* WITFile.m in Sources */,
+				52E3A029178AF07B00F0BDD0 /* WITInFile.m in Sources */,
+				52E3A02A178AF07B00F0BDD0 /* WITNetworkEnv.m in Sources */,
+				52E3A02B178AF07B00F0BDD0 /* WITOutFile.m in Sources */,
+				52E3A02C178AF07B00F0BDD0 /* WITService.m in Sources */,
+				52E3A02D178AF07B00F0BDD0 /* WITUser.m in Sources */,
+				52E3A02E178AF07B00F0BDD0 /* WITUtils.m in Sources */,
+				52C3FD41178B2E14004B1A5B /* WITFileCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52671598178ADBF400760441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526715AC178ADBF400760441 /* WitUITests.m in Sources */,
+				52583AE6178B8394008A4C91 /* GCDAsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526715A3178ADBF400760441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52671578178ADBF400760441 /* WitUI */;
+			targetProxy = 526715A2178ADBF400760441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52671586178ADBF400760441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52671587178ADBF400760441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5267158F178ADBF400760441 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52671590178ADBF400760441 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		526715A7178ADBF400760441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526715A8178ADBF400760441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526715AD178ADBF400760441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		526715AE178ADBF400760441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526715B0178ADBF400760441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WitUI/WitUI-Prefix.pch";
+				INFOPLIST_FILE = "WitUI/WitUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		526715B1178ADBF400760441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WitUI/WitUI-Prefix.pch";
+				INFOPLIST_FILE = "WitUI/WitUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		526715B3178ADBF400760441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WitUI.app/WitUI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WitUI/WitUI-Prefix.pch";
+				INFOPLIST_FILE = "WitUITests/WitUITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		526715B4178ADBF400760441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WitUI.app/WitUI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WitUI/WitUI-Prefix.pch";
+				INFOPLIST_FILE = "WitUITests/WitUITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52671573178ADBF400760441 /* Build configuration list for PBXProject "WitUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526715AD178ADBF400760441 /* Debug */,
+				526715AE178ADBF400760441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526715AF178ADBF400760441 /* Build configuration list for PBXNativeTarget "WitUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526715B0178ADBF400760441 /* Debug */,
+				526715B1178ADBF400760441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526715B2178ADBF400760441 /* Build configuration list for PBXNativeTarget "WitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526715B3178ADBF400760441 /* Debug */,
+				526715B4178ADBF400760441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52671570178ADBF400760441 /* Project object */;
+}

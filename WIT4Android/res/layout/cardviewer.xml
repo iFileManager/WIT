@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/lightTransparent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <LinearLayout
+        android:id="@+id/layName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|left"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="@string/name"
+            android:textColor="@color/darkGray" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/lighterDarkTransparent"
+            android:ems="10"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layName"
+        android:gravity="center_vertical|left"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="@string/number"
+            android:textColor="@color/darkGray" />
+
+        <EditText
+            android:id="@+id/edtNumber"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/lighterDarkTransparent"
+            android:ems="10"
+            android:inputType="numberSigned" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laySaveDir"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layNumber"
+        android:gravity="center_vertical|left"
+        android:padding="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="@string/saveDir"
+            android:textColor="@color/darkGray" />
+
+        <EditText
+            android:id="@+id/edtSaveDir"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/lighterDarkTransparent"
+            android:ems="10"
+            android:inputType="text" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layCheckEncrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laySaveDir"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dip"  >
+        
+        <CheckBox
+       		android:id="@+id/chkEncrypt"
+	        android:button="@drawable/aqua_checkbox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/sendEncrypt"
+	        android:textColor="@color/darkGray" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layCheckEncrypt"
+        android:layout_centerHorizontal="true"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aqua_button"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aqua_button"
+            android:text="@string/cancel" />
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+	    android:id="@+id/layHistory"
+	    android:background="@color/darkTransparent"
+	   	android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView
+            android:id="@+id/txtHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="36dip"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            android:text="@string/historylist"
+            android:textColor="@android:color/white"
+            android:textSize="16dip" />
+        
+	</LinearLayout>
+
+    <ListView
+        android:id="@+id/lstHistory"
+        android:layout_width="fill_parent"
+        android:layout_height="240dip"
+        android:cacheColorHint="#00000000"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layHistory" >
+    </ListView>
+    
+    <LinearLayout
+	    android:id="@+id/layBlack"
+	    android:background="@color/darkTransparent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lstHistory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+	
+	    <TextView
+	        android:id="@+id/txtBlack"
+	        android:layout_width="wrap_content"
+	        android:layout_height="36dip"
+	        android:gravity="center_vertical"
+	       	android:textColor="@android:color/white"
+	        android:text="@string/blacklist"
+	        android:textSize="16dip"
+			android:layout_marginLeft="5dip" />
+    
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/lstBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layBlack" >
+
+    </ListView>
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dip"
+    android:background="@color/lightTransparent" >    
+
+    <LinearLayout
+        android:id="@+id/layName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:padding="10dip"
+        android:gravity="center_vertical|left" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutName"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/darkGray" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:background="@color/lighterDarkTransparent"
+            android:focusable="false"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textSize="14dip"
+            android:ems="10"
+            android:inputType="text" >
+			
+			<requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layAuthor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layName" 
+        android:padding="10dip"
+        android:gravity="center_vertical|left" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutAuthor"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/darkGray" />
+
+        <EditText
+            android:id="@+id/edtAuthor"
+            android:background="@color/lighterDarkTransparent"
+            android:focusable="false"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/author"
+            android:textSize="14dip"
+            android:ems="10"
+            android:inputType="text" >
+
+        </EditText>
+        
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/layDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layAuthor" 
+        android:padding="10dip"
+        android:gravity="center_vertical|left" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutDate"
+            android:layout_marginRight="10dip"
+            android:textColor="@color/darkGray" />
+
+        <EditText
+            android:id="@+id/edtDate"
+            android:background="@color/lighterDarkTransparent"
+            android:focusable="false"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date"
+            android:textSize="14dip"
+            android:ems="10"
+            android:inputType="text" >
+
+        </EditText>
+        
+    </LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layDate"
+        android:layout_centerHorizontal="true"
+        android:padding="10dip" >
+
+		<Button
+        	android:id="@+id/btnReturn"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/_return"
+            android:background="@drawable/aqua_button" />
+	
+	</LinearLayout>
+	
+</RelativeLayout>      

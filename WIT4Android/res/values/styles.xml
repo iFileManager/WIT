@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Customed">
+		<item name="android:windowBackground">@drawable/background</item>
+　　		<item name="android:windowNoTitle">true</item>
+	</style>
+	<style name="CustomedDialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/background_dialog</item>
+	</style>
+</resources>

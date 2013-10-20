@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+	android:orientation="vertical">
+	
+	<RelativeLayout
+	    android:id="@+id/layMyCard"
+	    android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@color/darkTransparent"
+		android:gravity="center_vertical">
+
+		<TextView
+	        android:id="@+id/txtMyCard"
+	        android:layout_width="wrap_content"
+	        android:layout_height="36dip"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:gravity="center_vertical"
+	        android:textSize="16dip"
+	        android:layout_marginLeft="5dip"
+	        android:textColor="@android:color/white" />
+		
+		<ImageView
+	        android:id="@+id/imgSetting"
+	        android:layout_width="32dip"
+	        android:layout_height="32dip"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:gravity="center_vertical"
+	        android:padding="2dip"
+	        android:src="@drawable/setting" />
+		
+	</RelativeLayout>
+	
+	<ExpandableListView
+	    android:id="@+id/lstOnline"
+	    android:layout_below="@+id/layMyCard"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp"
+	    android:background="@android:color/transparent"
+	    android:cacheColorHint="#00000000" />
+	
+	<LinearLayout
+	    android:id="@+id/layRemoteCard"
+	    android:background="@color/darkTransparent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lstOnline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+	
+	    <TextView
+	        android:id="@+id/txtRemoteCard"
+	        android:layout_width="wrap_content"
+	        android:layout_height="36dip"
+	        android:gravity="center_vertical"
+	       	android:textColor="@android:color/white"
+	        android:text="@string/defaultCurrentConnection"
+	        android:textSize="16dip"
+			android:layout_marginLeft="5dip" />
+	    
+    </LinearLayout>
+	<ListView
+	    android:id="@+id/lstTransmission"
+	    android:layout_below="@+id/layRemoteCard"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:cacheColorHint="#00000000" >
+	</ListView>
+
+</RelativeLayout>

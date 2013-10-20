@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">绿影分享</string>
+	
+	<string name="allapp">所有程序</string>
+	<string name="allphoto">所有图片</string>
+	<string name="allmusic">所有音乐</string>
+	
+	<string name="home">主页</string>
+	<string name="photo">图片</string>
+	<string name="music">音乐</string>
+	<string name="app">应用</string>
+	<string name="contact">通讯录</string>
+	<string name="file">文件</string>
+	<string name="card">名片</string>	
+	
+	<string name="historylist">历史记录</string>
+	<string name="blacklist">黑名单</string>
+	<string name="createContact">创建为联系人</string>
+	<string name="createSuccess">创建成功</string>
+	<string name="addBlacklist">加入黑名单</string>
+	<string name="removeBlacklist">从黑名单中删除</string>
+	<string name="removeHistorylist">从历史记录中删除</string>
+	
+	<string name="noSelectedFile">请先选定文件</string>
+	<string name="noSelectedCard">请先选定连接对象</string>
+	
+	<string name="upperDir">上级目录</string>
+	<string name="name">用户名称</string>
+	<string name="number">手机号码</string>
+	
+	<string name="open">打开</string>
+	<string name="openFailed">打开失败</string>
+	<string name="save">保存</string>
+	<string name="saveDir">保存目录</string>
+	<string name="saveSuccess">保存成功</string>
+	<string name="saveFailed">保存失败</string>
+	<string name="illegalNumberFormat">非法数字格式</string>
+	
+	<string name="installFailed">安装失败</string>
+	
+	<string name="send">发送</string>
+	<string name="receive">接收</string>
+	
+	<string name="sendSuccess">发送成功</string>
+	<string name="sendFailed">发送失败</string>
+	<string name="receiveSuccess">接收成功</string>
+	<string name="receiveFailed">接收失败</string>
+	
+	<string name="askAppInstallation">是否安装此应用</string>
+	<string name="noSDCard">未插入SD卡</string>
+	
+	<string name="cancel">取消</string>
+	<string name="_return">返回</string>
+	
+	<string name="yes">是</string>
+	<string name="no">否</string>
+	
+	<string name="setting">设置</string>
+	<string name="viewSaveDir">显示存储目录</string>
+	<string name="about">关于</string>
+	
+	<string name="aboutName">应用名称</string>
+	<string name="aboutAuthor">作者列表</string>
+	<string name="author">管毓清 李翘楚 兰铮</string>
+	
+	<string name="aboutDate">开发时间</string>
+	<string name="date">2013年6月</string>
+	
+	<string name="noname">无名称</string>
+	<string name="nonumber">无号码</string>
+	
+    <string name="accept">接收</string>
+    <string name="refuse">拒绝</string>
+    <string name="close">关闭</string>
+    
+    <string name="notConnected">未连接</string>
+    
+    <string name="currentConnection">当前连接的用户：</string>
+    <string name="defaultCurrentConnection">当前连接的用户：(无)</string>
+	<string name="connect">连接</string>
+	<string name="disconnect">断开</string>
+	
+	<string name="requesting">连接请求中</string>
+	<string name="requestConnectionTitle">连接请求</string>
+	<string name="requestConnectionMsg">请求连接本机，是否接受？</string>
+	
+	<string name="connectionRequestAccepted">对方接受连接</string>
+	<string name="connectionRequestRefused">对方拒绝连接</string>
+	<string name="connectionTerminated">连接已断开</string>
+	
+	<string name="nameConflict">请不要同时发送两个名字相同的文件</string>
+	<string name="filelistRefreshing">文件列表正在刷新，请稍后</string>
+	<string name="sendEncrypt">发送加密文件</string>
+	<string name="icon">图标</string>
+</resources>
