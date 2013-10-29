@@ -1,7 +1,7 @@
 WIT
 ===
 
-[Click here](Wit_slides.pptx) to see the presentation slides in English<br/>
+[Click here](Wit_slides.pptx) to see the English presentation slides for the Android version. <br/>
 WIT is a wireless transfer that enables you to share your files, apps, contacts, photos, audio files with anyone in the same subnet.<br/>
 You can even share thing without a gateway device if you turn on the Hotspot mode.<br/>
 This tool provides a very fascinating user interface and is very easy to use.<br/>
